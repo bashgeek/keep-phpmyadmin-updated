@@ -59,6 +59,4 @@ if [ $version_available != $version_installed ]; then
 	else
 		echo "An error occured trying to download";
 	fi
-else
-	echo "We are good - $version_available == $version_installed";
 fi
